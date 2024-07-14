@@ -1,11 +1,11 @@
-import Moviecard from "./Moviecard";
-
+import MovieList from "./MoviesList";
+import NavBar from "./NavBar";
 
 function App() {
   return (
     <>
-      <h1>Movie App</h1>  
-      <Moviecard />
+      <NavBar />
+      <MovieList />
     </>
   );
 }

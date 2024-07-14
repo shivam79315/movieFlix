@@ -85,6 +85,7 @@ footer.starCount {
   font-weight: 600;
   position: absolute;
   left: 50;
+  color:#24292E;
 }
 
 .footer .str-btn {
@@ -148,10 +149,20 @@ footer.starCount {
   background-color: #251bb1;
   color: #fff;
   margin: 5px;
+  cursor: pointer;
 }
+
+.removeCart-btn {
+  background-color: #db2828;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+}
+
 .unfavourite-btn {
   background-color: #db2828;
   color: #fff;
   text-shadow: none;
   margin: 5px;
+  cursor: pointer;
 }
